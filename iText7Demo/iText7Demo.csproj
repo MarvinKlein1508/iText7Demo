@@ -1,0 +1,28 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  
+
+  <ItemGroup>
+    <PackageReference Include="itext7" Version="7.1.16" />
+    <PackageReference Include="itext7.pdfhtml" Version="3.0.5" />
+  </ItemGroup>
+
+  
+
+  <ItemGroup>
+    <None Update="Printing\Templates\CSS\DemoTemplate.css">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Printing\Templates\DemoTemplate.html">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+
+
+
+</Project>
